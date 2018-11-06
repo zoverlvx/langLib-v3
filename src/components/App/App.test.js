@@ -8,8 +8,7 @@ it("renders without crashing", () => {
     ReactDOM.unmountComponentAtNode(div);
 });
 
-it("renders image", () => {
-    const img = document.createElement("img");
-    ReactDOM.render(<App />, img);
-    ReactDOM.unmountComponentAtNode(img);
+it("creates failing test to see in CircleCI", () => {
+    const a;
+    expect(a).toEqual(0);
 });
